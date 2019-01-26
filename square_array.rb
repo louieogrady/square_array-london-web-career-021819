@@ -6,5 +6,5 @@ array = [1,2,3]
 
 def square_array(array)
   array.each do |item|
-  Array.new = item**2
+  Array.new(array) = item**2
 end
