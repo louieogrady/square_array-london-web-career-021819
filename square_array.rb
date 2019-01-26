@@ -1,3 +1,4 @@
 def square_array(numbers)
-numbers.each {|x| x**2}
+newarray = numbers.each {|x| x**2}
+newarray
 end
