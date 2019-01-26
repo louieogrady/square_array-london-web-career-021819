@@ -1,4 +1,6 @@
-def square_array(numbers)
-newarray = numbers.each {|x| x**2}
-return newarray
+def method(array)
+arr = []
+array.each { |x| arr << x**2 }
+arr 
 end
+
